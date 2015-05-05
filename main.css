@@ -1,0 +1,9 @@
+/* SETTINGS CSS */
+div.content.writing_guide { max-width: 800px;}
+div.content.writing_guide #submit {float: right;}
+div.content.writing_guide p.gray {color:#777;font-style:italic}
+
+/* LIGHTBOX CSS */
+.lightbox.guide { display: none; position: fixed; left: 0px; top: 0px; right: 0px; bottom: 0px; background: rgba(0,0,0,0.5); z-index:99999;}
+.lightbox.guide .content { position: relative;display: block; width: 50%; margin: 0 auto; background: #fff; padding: 25px; margin-top: 150px; }
+.lightbox.guide .close { width: 25px; height: 25px; position: absolute; top: 2px; right: 2px; background: rgba(0,0,0,0.5); cursor: pointer; text-align: center; color: #fff; line-height: 26px;}
